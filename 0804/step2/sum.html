@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var arr2=[10, 24, 35, 46, 75]
+        var arr12=[10, 24, 35, 46, 75, 84, 96]
+        function sum1 (ele) {
+            var sum=0;
+            var avg=0.0;
+            for (var i=0; i<ele.length; i++) {
+                sum +=ele[i];
+            }
+            return(sum);
+        }    
+        document.write("받은 값은 =" + arr2 + "<br>");
+        document.write("누적값"+sum1(arr12));
+        
+    </script>
+</body>
+</html>
